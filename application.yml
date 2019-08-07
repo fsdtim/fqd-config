@@ -1,0 +1,17 @@
+spring:
+   profiles:
+    active: 
+        - dev
+---   
+spring:
+  profiles: dev
+  application:
+    name:fqd-config-yxd-dev
+
+---   
+spring:
+  profiles: test
+  application:
+    name:fqd-config-yxd-test
+
+
